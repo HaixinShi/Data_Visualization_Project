@@ -1,10 +1,10 @@
 # Milestone 1 (Friday 8th April)
 
-This is the report of milestone 1 in course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) in EPFL.
+This is the report of milestone 1 in the course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) of EPFL.
 
 ## Dataset
 
-For this project, we decided to explore [Games of All Time from Metacritic](https://www.kaggle.com/datasets/xcherry/games-of-all-time-from-metacritic). It can be found on [Kaggle](https://www.kaggle.com/)
+For this project, we decided to explore [Games of All Time from Metacritic](https://www.kaggle.com/datasets/xcherry/games-of-all-time-from-metacritic). It was found on [Kaggle](https://www.kaggle.com/)
 
 ### Data Quality
 
