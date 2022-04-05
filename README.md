@@ -86,7 +86,7 @@ Apart from the above-mentioned analysis, we have created a script to use HTTP re
 ## Related Work(@zhiye.wang, collect some information about the practice happening on this dataset)
 - **`Q1`**: What others have already done with the data?
 
-(shx)Recommender System, like the [author] (https://game-recommender-engine.herokuapp.com/) of this dataset. Besides, other peopple may perform Descriptive Analysis and Visualization and EDA-Exploratory Analysis.
+(shx)Recommender System, like the [author](https://game-recommender-engine.herokuapp.com/) of this dataset. Besides, other peopple may perform Descriptive Analysis and Visualization and EDA-Exploratory Analysis.
 
 - **`Q2`**: Why is your approach original?
 
