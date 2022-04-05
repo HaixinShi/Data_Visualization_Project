@@ -1,4 +1,4 @@
-# Milestone 1 (Friday 5th April)
+# Milestone 1 (Friday 8th April)
 
 This is the report of milestone 1 in course [Data visualization](https://edu.epfl.ch/coursebook/en/data-visualization-COM-480) in EPFL.
 
