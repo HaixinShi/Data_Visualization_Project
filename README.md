@@ -75,7 +75,7 @@ Rank of different platforms. Nentindo-64 and stadia rank first and second, out p
   
 Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
   
-<img src="./pics/type_score.png">
+<img src="./pics/type_score.jpg">
 
 </div>
 
