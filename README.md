@@ -57,23 +57,23 @@ The primary dimension of the visualization is as followings:
 <div align=center>
 <img src="./pics/genre_percent.png">
   
-The pie chart shows the distribution of game types. It is apparent from the figures that action game is most popular among all games.
+**`Percentage of top 10 genres`** : The pie chart shows the distribution of game types. It is apparent from the figures that action game is most popular among all games.
   
 <img src="./pics/meta-user_score_regress.png">
   
-Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line which shows a strong relation between meta-score and user-score.
+**`Meta-user score regression analysis`** :Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line which shows a strong relation between meta-score and user-score.
   
 <img src="./pics/meta-user_score.png">
   
-The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc.
+**`Basic statistic`** :The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc. 
   
 <img src="./pics/platform_rank.png">
   
-Rank of different platforms. Nentindo-64 and stadia rank first and second, out perform than the other platforms.
+**`Platform score rank`** :Rank of different platforms. Nentindo-64 and stadia rank first and second, out perform than the other platforms.
   
 <img src="./pics/platform_scores.png">
   
-Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
+**`Platform score distribution`** :Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
   
 <img src="./pics/type_score.jpg">
 
