@@ -53,7 +53,38 @@ The primary dimension of the visualization is as followings:
 - **`Popularity Analysis`**: We will show changing trend of popularity of game genres, platforms, rating, and developers.
 
 
-## Exploratory Data Analysis(@guosheng.feng, provide images and brief explanation)
+## Exploratory Data Analysis
+<img src="./../pics/genre_percent.png">
+The pie chart shows the distribution of game types. It is apparent from the figures that action game is most popular among all games.
+<img src="./../pics/meta-user_score_regress.png">
+Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line which shows a strong relation between meta-score and user-score.
+<img src="./../pics/meta-user_score.png">
+The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc.
+<img src="./../pics/platform_rank.png">
+Rank of different platforms. Nentindo-64 and stadia rank first and second, out perform than the other platforms.
+<img src="./../pics/platform_scores.png">
+Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
+<img src="./../pics/type_score.png">
+
+
+## Related Work(@zhiye.wang, collect some information about the practice happening on this dataset)
+- **`Q1`**: What others have already done with the data?
+
+Recommender System, like the [author](https://game-recommender-engine.herokuapp.com/) of this dataset. Besides, other people may perform Descriptive Analysis and Visualization and EDA-Exploratory Analysis.
+
+- **`Q2`**: Why is your approach original?
+
+We crawled the release date data of the games from orginal websites. The extra information is a good complementary to the original data so that we analyzed the data in a time series and drew some interesting and important fact.
+
+- **`Q3`**: What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
+
+We use pie chart, bar chart and line chart in our analysis. For each kind of the chart, the bar chart uses the height of the column to reflect the differences in data. The naked eye is very sensitive to height difference and the recognition effect is good. Line charts are suitable for large two-dimensional data sets, especially where trends are more important than individual data points. The pie chart shows the proportion of a certain part in the whole.
+
+
+
+
+
+
 ## The followings are templates!!!
 The Pantheon data is clearly described in the author's paper: [Pantheon 1.0](https://arxiv.org/abs/1502.07310). Therefore, we scope our analysis on the columns that we plan to use in our visualization in the notebook [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-famousworld/blob/main/notebooks/PantheonExploratory.ipynb).
 
@@ -83,13 +114,4 @@ The occupation information appears to be extracted from wikidata and not always 
 
 Apart from the above-mentioned analysis, we have created a script to use HTTP requests to obtain images and a short bio of these persons from Wikipedia using Wikipedia API. The code for data filtering and enrichment is available [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-famousworld/blob/main/src/process.py)
 
-## Related Work(@zhiye.wang, collect some information about the practice happening on this dataset)
-- **`Q1`**: What others have already done with the data?
 
-(shx)Recommender System, like the [author](https://game-recommender-engine.herokuapp.com/) of this dataset. Besides, other peopple may perform Descriptive Analysis and Visualization and EDA-Exploratory Analysis.
-
-- **`Q2`**: Why is your approach original?
-
-(shx)we add chronological order to all data dimensions.
-
-- **`Q3`**: What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
