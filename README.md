@@ -54,18 +54,30 @@ The primary dimension of the visualization is as followings:
 
 
 ## Exploratory Data Analysis
+<div align=center>
 <img src="./pics/genre_percent.png">
+  
 The pie chart shows the distribution of game types. It is apparent from the figures that action game is most popular among all games.
+  
 <img src="./pics/meta-user_score_regress.png">
+  
 Regression of meta-score and user-score. All the points are located adjacent on either side of the regression line which shows a strong relation between meta-score and user-score.
+  
 <img src="./pics/meta-user_score.png">
+  
 The table shows a basic statistic of user score and meta score for each game including mean, standard deviation, quantile,etc.
+  
 <img src="./pics/platform_rank.png">
+  
 Rank of different platforms. Nentindo-64 and stadia rank first and second, out perform than the other platforms.
+  
 <img src="./pics/platform_scores.png">
+  
 Score distribution for platforms, from which we know most people prefer to grade platform between 70 and 85.
+  
 <img src="./pics/type_score.png">
 
+</div>
 
 ## Related Work(@zhiye.wang, collect some information about the practice happening on this dataset)
 - **`Q1`**: What others have already done with the data?
@@ -81,37 +93,5 @@ We crawled the release date data of the games from orginal websites. The extra i
 We use pie chart, bar chart and line chart in our analysis. For each kind of the chart, the bar chart uses the height of the column to reflect the differences in data. The naked eye is very sensitive to height difference and the recognition effect is good. Line charts are suitable for large two-dimensional data sets, especially where trends are more important than individual data points. The pie chart shows the proportion of a certain part in the whole.
 
 
-
-
-
-
-## The followings are templates!!!
-The Pantheon data is clearly described in the author's paper: [Pantheon 1.0](https://arxiv.org/abs/1502.07310). Therefore, we scope our analysis on the columns that we plan to use in our visualization in the notebook [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-famousworld/blob/main/notebooks/PantheonExploratory.ipynb).
-
-### Spatial data analysis - birth and death locations
-
-Each location is described by a tuple of floats, interpretable as the latitude and longitude in the [spherical coordinate system](https://en.wikipedia.org/wiki/Reference_ellipsoid#Coordinates). The birth and death locations are not available for 4.05%, and 56.78% of samples respectively. The death locations are missing as many people are still alive. Among the dead people, 9.74% do not have a death location. The dataset was prepared with a higher emphasis on birthplace completeness, therefore, we will scope on it as well in our visualization. From the analysis of the location, we observe that many of the persons are from Europe.
-
-#### Birth Distribution
-
-<img src="./../images/birth_distribution.png">
-
-#### Death Distribution
-
-<img src="./../images/death_distribution.png">
-
-### Temporal data analysis - birth and death date
-
-The dataset provides two columns for both birth and death dates - "year" and "date". Since the date columns have more missing values, as such detailed information is often unknown for historical figures, we decided to use only "birth year" and "death year" columns. In total, 0.5% of birth years and 52.82% of death years are missing. Similar to death locations, 1.46% of dead people do not have a death date. Many entries are just rough approximations: in the BC era, 44.30% are the century years (divisible by 100), whereas it's the case only for 1.62% of AD samples.
-
-### Categorical data analysis - occupation
-
-The occupation information appears to be extracted from wikidata and not always perfectly fitting the biography. There are no missing values in the occupation data column. Each sample is associated with exactly one occupation. There are 101 distinct occupations. The most frequent one is "POLITICIAN" (15585 occurrences), and the least frequent - "BULLFIGHTER" (1 occurrence).
-
-<img src="./../images/occupation_distribution.png">
-
-### Acquired supplementary data
-
-Apart from the above-mentioned analysis, we have created a script to use HTTP requests to obtain images and a short bio of these persons from Wikipedia using Wikipedia API. The code for data filtering and enrichment is available [here](https://github.com/com-480-data-visualization/data-visualization-project-2021-famousworld/blob/main/src/process.py)
 
 
