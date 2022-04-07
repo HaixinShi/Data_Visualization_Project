@@ -79,7 +79,7 @@ Score distribution for platforms, from which we know most people prefer to grade
 
 </div>
 
-## Related Work(@zhiye.wang, collect some information about the practice happening on this dataset)
+## Related Work
 - **`Q1`**: What others have already done with the data?
 
 Recommender System, like the [author](https://game-recommender-engine.herokuapp.com/) of this dataset. Besides, other people may perform Descriptive Analysis and Visualization and EDA-Exploratory Analysis.
